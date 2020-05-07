@@ -1,0 +1,3 @@
+export const GET_RECIPE = 'GET_RECIPE';
+export const GET_RECIPE_ERROR = 'GET_RECIPE_ERROR';
+export const GET_RECIPE_PENDING = 'GET_RECIPE_PENDING';

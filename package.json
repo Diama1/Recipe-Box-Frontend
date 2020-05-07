@@ -1,0 +1,35 @@
+{
+  "name": "Recipe-Box-Frontend",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "https://github.com/Diama1/Recipe-Box-Frontend.git",
+  "author": "diame1 <danimahoro75@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "sass": "parcel watch ./src/assets/style.scss",
+    "build": "parcel build ./src/index.html"
+  },
+  "dependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "axios": "^0.19.2",
+    "concurrently": "^5.1.0",
+    "node-sass": "^4.13.1",
+    "parcel-bundler": "^1.12.4",
+    "react": ">=16.8.0",
+    "react-bootstrap": "^1.0.1",
+    "react-dom": ">=16.8.0",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "sass": "^1.26.5"
+  }
+}
