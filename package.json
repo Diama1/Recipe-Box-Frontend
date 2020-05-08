@@ -6,7 +6,8 @@
   "author": "diame1 <danimahoro75@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "parcel ./src/index.html",
+    "start:dev": "parcel ./src/index.html",
+    "start": "serve -s ./dist",
     "sass": "parcel watch ./src/assets/style.scss",
     "build": "parcel build ./src/index.html"
   },
@@ -27,7 +28,8 @@
     "react-router-dom": "^5.1.2",
     "redux": "^4.0.5",
     "redux-devtools-extension": "^2.13.8",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "serve": "^11.1.0"
   },
   "devDependencies": {
     "sass": "^1.26.5"

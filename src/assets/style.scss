@@ -67,6 +67,7 @@
 			border-radius: 5px;
 			padding: 0px 5px 5px 5px;
 			padding-top: 6px;
+			cursor: pointer;
 			height: 40px;
 			&:nth-of-type(odd) {
 				color:$white;
@@ -97,6 +98,7 @@
 				color: $white;
 				font-size:35px;
 				margin-right: 10px;
+				cursor: pointer;
 			}
 		}
 		.body {
@@ -112,6 +114,7 @@
 			.far {
 				color: $white;
 				font-size:35px;
+				cursor: pointer;
 			}
 		}
 	}
